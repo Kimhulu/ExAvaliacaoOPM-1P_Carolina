@@ -1,0 +1,42 @@
+body {
+    background-color: #2e2e2e;
+    color: #b7e0ec;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+h1 {
+    color: #48a9c7;
+}
+
+h2 {
+    color: #7dbacc;
+}
+
+
+a:link {
+    color: #d7e7ec;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: rgb(223, 149, 201);
+}
+
+
+a:hover {
+    color: rgb(109, 235, 197);
+    text-decoration: underline;
+}
+
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+h1:hover {
+    color: #edbcf1;
+    transform: scale(1.05);
+}

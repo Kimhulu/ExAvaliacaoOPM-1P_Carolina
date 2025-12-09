@@ -25,9 +25,6 @@ if (adivinhar < 1 || adivinhar > 100 || isNaN(adivinhar)) {
         } else if (numeroSorte > adivinhar && numeroSorte - adivinhar <= 2 || numeroSorte < adivinhar && adivinhar - numeroSorte <= 2) {
             alert('Tem certeza?')
 
-            adivinhar = prompt('Adivinha o nº da sorte, ente 1 e 100: ')
-            adivinhar = Math.floor(Number(adivinhar))
-
         } else if (numeroSorte > adivinhar) {
             alert('O número é maior.')
         } else {
