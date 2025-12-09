@@ -22,7 +22,7 @@ if (adivinhar < 1 || adivinhar > 100 || isNaN(adivinhar)) {
 
             ganhou = true
 
-        } else if (numeroSorte > adivinhar && numeroSorte - adivinhar <= 5 || numeroSorte < adivinhar && adivinhar - numeroSorte <= 5) {
+        } else if (numeroSorte > adivinhar && numeroSorte - adivinhar <= 2 || numeroSorte < adivinhar && adivinhar - numeroSorte <= 2) {
             alert('Tem certeza?')
 
             adivinhar = prompt('Adivinha o nº da sorte, ente 1 e 100: ')
